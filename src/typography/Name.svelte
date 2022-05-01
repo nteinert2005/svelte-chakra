@@ -2,7 +2,7 @@
   let name = "Testing";
   const { fontSize, fontWeight, fontColor, lineHeight, fonts, letterSpacings } =
     $$restProps;
-  import { cssVariables } from "./helpers/cssVariables";
+  import { cssVariables } from "../helpers/cssVariables";
 </script>
 
 <span

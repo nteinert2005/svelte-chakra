@@ -11,7 +11,7 @@
     // size,
     defaultValue,
   } = $$restProps;
-  import { cssVariables } from "./helpers/cssVariables";
+  import { cssVariables } from "../helpers/cssVariables";
   let value = defaultValue || [50];
 </script>
 

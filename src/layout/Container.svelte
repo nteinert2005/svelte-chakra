@@ -16,7 +16,7 @@
     display,
     centerContent,
   } = $$restProps;
-  import { cssVariables } from "./helpers/cssVariables";
+  import { cssVariables } from "../helpers/cssVariables";
 </script>
 
 <div

@@ -15,7 +15,7 @@
     justifyContent,
     display,
   } = $$restProps;
-  import { cssVariables } from "./helpers/cssVariables";
+  import { cssVariables } from "../helpers/cssVariables";
 </script>
 
 <div

@@ -8,7 +8,7 @@
     rightIcon,
     size,
   } = $$restProps;
-  import { cssVariables } from "./helpers/cssVariables";
+  import { cssVariables } from "../helpers/cssVariables";
   import { Icon } from "svelte-hero-icons";
 </script>
 
