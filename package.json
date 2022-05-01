@@ -1,0 +1,33 @@
+{
+  "name": "chakra-svelte",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "svelte": "src/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@bulatdashiev/svelte-slider": "^1.0.3",
+    "rollup": "^2.71.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.48.0",
+    "svelte-hero-icons": "^4.1.1"
+  },
+  "files": [
+    "dist",
+    "src/Name.svelte",
+    "src/index.js"
+  ],
+  "dependencies": {
+    "@emotion/css": "^11.9.0",
+    "@emotion/styled": "^11.8.1"
+  }
+}
