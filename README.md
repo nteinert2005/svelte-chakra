@@ -21,8 +21,6 @@ npm install svelte-chakra
 
 ## Adding to a Page
 
-and then on the page that you want to use it:
-
 ```js
 import { Box } from "svelte-chakra";
 
@@ -36,6 +34,11 @@ Adding `theme.xxx.xxx` to any props will access the corresponding theme variable
 ```js
     <Box bg={theme.colors.black}>
 ```
+
+### Distinctions:
+
+`theme.color.red => default red color`
+`theme.color.red[300] => red in the shade of 300`
 
 ## Creating Custom Components
 

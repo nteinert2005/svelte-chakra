@@ -10,6 +10,16 @@ export function cssVariables(node, variables) {
 
 export function setCssVariables(node, variables) {
   for (const name in variables) {
+    if (
+      name === "bg" ||
+      name === "colorScheme" ||
+      name === "progressColor" ||
+      name === "trackColor"
+    ) {
+      if (typeof variables[name] === "object") {
+        variables[name] = variables[name].default;
+      }
+    }
     node.style.setProperty(`--${name}`, variables[name]);
   }
 }
