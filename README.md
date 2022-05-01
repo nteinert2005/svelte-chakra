@@ -10,6 +10,7 @@ Svelte Chakra is an integration tool that allow Svelte developers to be able to 
 - [Accessing the theme](#accessing-the-theme-inline)
 - [Creating Custom Components](#creating-custom-components)
 - [List of Components](#list-of-components)
+- [Modal Documentation](#modal-documentation)
 
 ## Getting Started
 
