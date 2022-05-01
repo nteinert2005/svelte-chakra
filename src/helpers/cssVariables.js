@@ -14,7 +14,9 @@ export function setCssVariables(node, variables) {
       name === "bg" ||
       name === "colorScheme" ||
       name === "progressColor" ||
-      name === "trackColor"
+      name === "trackColor" ||
+      name === "color" ||
+      name === "fontColor"
     ) {
       if (typeof variables[name] === "object") {
         variables[name] = variables[name].default;
