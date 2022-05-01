@@ -28,4 +28,7 @@ import { Box } from "svelte-chakra";
 
 Here is a running list of the features that are done or in the works. Below each component is a list of all the available props you can use to customize it.
 
--[x] Box -[x] Container -[x] Button -[x] Slider
+- [x] Box
+- [x] Container
+- [x] Button
+- [x] Slider
