@@ -20,11 +20,12 @@ and then on the page that you want to use it:
 
 ```js
 import { Box } from "svelte-chakra";
+
+<Box bg={theme.colors.black} color={theme.colors.white}>
 ```
 
 ## List of Components (so far)
 
-- Box
-- Container
-- Button
-- Slider
+Here is a running list of the features that are done or in the works. Below each component is a list of all the available props you can use to customize it.
+
+-[x] Box -[x] Container -[x] Button -[x] Slider
