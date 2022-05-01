@@ -1,4 +1,4 @@
-# Svelte Chakra (v0.0.3)
+# Svelte Chakra (v0.1.0)
 
 Svelte Chakra is an integration tool that allow Svelte developers to be able to use Chakra UI in their code.
 
@@ -73,3 +73,9 @@ Here is a running list of the features that are done or in the works. Below each
   - Props: `colorScheme, isDisabled, isFullWidth, fontColor, leftIcon, rightIcon, size `
 - [x] Slider
   - Props: `trackColor, progressColor, width, min, max, defaultValue `
+- [x] Modal
+  - Props: none yet just `<ModalHeader>` and `<ModalFooter>` see [Modal Documentation](#modal-documention)
+
+## Modal Documentation
+
+`Coming Soon`
