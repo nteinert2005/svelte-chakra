@@ -6,6 +6,7 @@ Svelte Chakra is an integration tool that allow Svelte developers to be able to 
 
 - [Getting Started](#getting-started)
   - [Adding Svelte Chakra to project](#adding-svelte-chakra-to-project)
+- [List of Components](#list-of-components)
 
 ## Getting Started
 
@@ -20,3 +21,10 @@ and then on the page that you want to use it:
 ```js
 import { Box } from "svelte-chakra";
 ```
+
+## List of Components (so far)
+
+- Box
+- Container
+- Button
+- Slider
