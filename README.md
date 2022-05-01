@@ -9,8 +9,14 @@ Svelte Chakra is an integration tool that allow Svelte developers to be able to 
 
 ## Getting Started
 
-To add it to your Svelte project, just use
+To add it to your Svelte project, just use:
 
 ```js
 npm install svelte-chakra
+```
+
+and then on the page that you want to use it:
+
+```js
+import { Box } from "svelte-chakra";
 ```
