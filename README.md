@@ -1,4 +1,4 @@
-# Svelte Chakra (v0.0.0)
+# Svelte Chakra (v0.0.2)
 
 Svelte Chakra is an integration tool that allow Svelte developers to be able to use Chakra UI in their code.
 

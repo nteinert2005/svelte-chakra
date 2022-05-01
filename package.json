@@ -1,6 +1,6 @@
 {
   "name": "chakra-svelte",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -29,5 +29,13 @@
   "dependencies": {
     "@emotion/css": "^11.9.0",
     "@emotion/styled": "^11.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nteinert2005/svelte-chakra"
+  },
+  "homepage": "",
+  "bugs": {
+    "url": "https://github.com/nteinert2005/svelte-chakra/issues"
   }
 }
