@@ -1,6 +1,6 @@
 {
   "name": "chakra-svelte",
-  "version": "0.0.2a",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -23,7 +23,6 @@
   },
   "files": [
     "dist",
-    "src/Name.svelte",
     "src/index.js"
   ],
   "dependencies": {

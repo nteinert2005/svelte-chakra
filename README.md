@@ -1,4 +1,4 @@
-# Svelte Chakra (v0.0.2)
+# Svelte Chakra (v0.0.3)
 
 Svelte Chakra is an integration tool that allow Svelte developers to be able to use Chakra UI in their code.
 
@@ -8,6 +8,7 @@ Svelte Chakra is an integration tool that allow Svelte developers to be able to 
   - [Adding Svelte Chakra to project](#adding-svelte-chakra-to-project)
 - [Adding to Page](#adding-to-a-page)
 - [Accessing the theme](#accessing-the-theme-inline)
+- [Creating Custom Components](#creating-custom-components)
 - [List of Components](#list-of-components)
 
 ## Getting Started
@@ -34,6 +35,27 @@ Adding `theme.xxx.xxx` to any props will access the corresponding theme variable
 
 ```js
     <Box bg={theme.colors.black}>
+```
+
+## Creating Custom Components
+
+Using `cssVariables` and `use:cssVariables` you can easily create custom components on the fly.
+
+Inside of `../helpers` is a file called `cssVariables.js`, and to use it:
+
+```js
+<script>
+    const { bg } = $$restProps;
+    import { cssVariables } from '../helpers/cssVariables';
+</script>
+
+<div use:cssVariables={{bg}}> Some text goes here. </div>
+
+<style>
+    div {
+        background-color: var(--bg);
+    }
+</style>
 ```
 
 ## List of Components (so far)
