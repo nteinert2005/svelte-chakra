@@ -5,7 +5,9 @@
     isFullWidth,
     leftIcon,
     fontColor,
+    onClick,
     rightIcon,
+    style,
     size,
   } = $$restProps;
   import { cssVariables } from "../helpers/cssVariables";
@@ -13,8 +15,10 @@
 </script>
 
 <button
+  on:click={onClick}
   disabled={isDisabled ? true : null}
   class={isFullWidth ? "full-width" : null}
+  {style}
   use:cssVariables={{
     colorScheme,
     isDisabled,

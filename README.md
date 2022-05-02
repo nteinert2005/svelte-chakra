@@ -8,6 +8,7 @@ Svelte Chakra is an integration tool that allow Svelte developers to be able to 
   - [Adding Svelte Chakra to project](#adding-svelte-chakra-to-project)
 - [Adding to Page](#adding-to-a-page)
 - [Accessing the theme](#accessing-the-theme-inline)
+- [Variants](#theme-variants)
 - [Creating Custom Components](#creating-custom-components)
 - [List of Components](#list-of-components)
 - [Modal Documentation](#modal-documentation)
@@ -40,6 +41,13 @@ Adding `theme.xxx.xxx` to any props will access the corresponding theme variable
 
 `theme.color.red => default red color`
 `theme.color.red[300] => red in the shade of 300`
+
+## Theme Variants
+
+```js
+    <Badge variant={solid}> Badge </Badge>
+    <Badge variant={outline}> OUtline Badge </Badge>
+```
 
 ## Creating Custom Components
 
@@ -76,6 +84,8 @@ Here is a running list of the features that are done or in the works. Below each
   - Props: `trackColor, progressColor, width, min, max, defaultValue `
 - [x] Modal
   - Props: none yet just `<ModalHeader>` and `<ModalFooter>` see [Modal Documentation](#modal-documention)
+- [x] Badges
+  - Props: `colorScheme, size, variant, bgColor`
 
 ## Modal Documentation
 
