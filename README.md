@@ -46,7 +46,7 @@ Adding `theme.xxx.xxx` to any props will access the corresponding theme variable
 
 ```js
     <Badge variant={solid}> Badge </Badge>
-    <Badge variant={outline}> OUtline Badge </Badge>
+    <Badge variant={outline}> Outline Badge </Badge>
 ```
 
 ## Creating Custom Components
